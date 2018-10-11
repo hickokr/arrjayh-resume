@@ -1,0 +1,53 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
+  font-weight: 300;
+  font-size: .90rem;
+}
+
+ul {
+  margin-bottom:5px !important;
+}
+
+li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .25rem;
+}
+
+.row {
+  padding-bottom:5px;
+}
+
+.container {
+  padding-top: 1.75rem;
+  padding-right: .75rem;
+  padding-left: .75rem;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left:0px;
+}
+
+p {
+  margin-bottom:.15rem;
+}
+
+.col-9, .col-3 {
+  height:21px !important;
+}
+
+.experience-body {
+    margin-bottom: 0;
+}
+
+.new-row {
+  margin-top:10px;
+}
+
+.last-experience {
+  margin-bottom:0px;
+}
