@@ -6,10 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Robert J. Hickok Resume</title>
+  <title>hickok_resume.pdf</title>
 </head>
 
 <body>
@@ -42,7 +41,7 @@
       <div class="col-9">
         <p>
           <span class="font-weight-bold">Bachelor of Science, Computer Science, </span>
-          <span class="font-italic">University of Illinois at Chicago,<span>
+          <span class="">University of Illinois at Chicago,<span>
           <span class="font-weight-bold"> GPA</span>: 3.95
         </p>
       </div>
@@ -50,11 +49,11 @@
         <p>Sept. 2016 - Dec. 2018</p>
       </div>
     </div>
-    <div class="row ">
+    <div class="row">
       <div class="col-9">
         <p>
           <span class="font-weight-bold">Associate of Science, Computer Science, </span>
-          <span class="font-italic">College of DuPage,<span>
+          <span class="">College of DuPage,<span>
           <span class="font-weight-bold"> GPA</span>: 3.29
         </p>
       </div>
@@ -78,16 +77,31 @@
           <li>
             <p>
               <span class="font-weight-bold">Software & Computer Systems</span> -
-              C, C++, Python, x86, Bash, Networking (L3/L4), Applications
+              C, C++, Python, Bash, TypeScript
             </p>
           </li>
           <li>
             <p>
-              <span class="font-weight-bold">Tools & OS</span> -
-              Linux, Git, GDB, CMake, GCC/G++, Perf, Valgrind, WireShark, TCPDump, Data Plane Development Kit (DPDK)
+              <span class="font-weight-bold">Tools</span> -
+              Git, GDB, CMake, GCC/G++, Perf, Valgrind, WireShark, TCPDump, DPDK, React
             </p>
           </li>
         </ul>
+      </div>
+    </div>
+
+    <!--
+			* About 
+			*
+		-->
+    <div class="row new-row">
+      <div class="col-12">
+        <h5 class="border-bottom"><strong>About</strong></h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p>Mid-level systems software engineer. Seeking opportunities which require some domain expertise in systems or platform software engineering. Have had a breadth of experiences; from physics research, web, embedded, and distributed computing. My most recent work revolves around app enablement for a variety of platforms (Xbox, PS4, PS5, Switch) for an online streaming service.</p>
       </div>
     </div>
 
@@ -104,16 +118,19 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Software Engineer, </span>
-          <span class="font-italic">Twitch, </span>
+          <span class="">Twitch, </span>
           <span>San Francisco, CA.</span>
         </p>
       </div>
       <div class="col-3 text-right">
-        <p>Jul 2021 - Present</p>
+        <p>Jul 2021 - Jun 2022</p>
       </div>
       <div class="col-12">
         <ul>
-          <li>Developing the next generation of Twitch - Living Room using React, NextJS, and native platform tooling. </li>
+          <li>Worked alongside front-end developers to help create the next generation of Twitch - Living Room using React, NextJS, and native platform tooling. </li>
+          <li>Created a DNS solution for local platform development which improved developer velocity by 900x. </li>
+          <li>Designed and implemented an Xbox One virtual keyboard IPC scheme to delegate native inputs from the platform to a NextJS app. </li>
+          <li>Delivered a cross-platform build initiative which greatly improved PS4/PS5 development experience. </li>
         </ul>
       </div>
     </div>
@@ -121,7 +138,7 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Software Engineer, </span>
-          <span class="font-italic">Trend Micro, </span>
+          <span class="">Trend Micro, </span>
           <span>Austin, TX.</span>
         </p>
       </div>
@@ -130,16 +147,11 @@
       </div>
       <div class="col-12">
         <ul>
-          <li>Architected, developed, and maintained high performance multi-threaded software written in C 
-            which assisted in streamlining FPGA chip integration and deployment for consuming R&D teams. </li>
-          <li>Pioneered a CMake/CentOS build system which improved software development time by exposing TippingPoint 
-            source code in an industry standard format which became adopted and maintained by several R&D teams. </li>
-          <li>Architected and Developed software testing schemes for proprietary FPGA chips enabling R&D teams to perform cost-benefit analysis 
-            which helped determine the effectiveness of the chip and ultimately the purchase and integration of said chips. </li>
-          <li>Created and implemented a cost saving scaling method for AWS EC2 TippingPoint testing devices reducing hourly costs from $0.308 to $0.0376 
-            which unlocked Q&A teams to use 10x the number of systems for testing. </li>
-          <li>Worked alongside a variety of R&D teams leveraging their processes to implement software written in C/C++/Python for FPGA 
-            debug and development which created a high degree team autonomy. </li>
+          <li>Architected, developed, and maintained high performance multi-threaded software written in C which assisted in streamlining FPGA chip integration and deployment for consuming R&D teams. </li>
+          <li>Pioneered a CMake/CentOS build system which improved software development time by exposing TippingPoint source code in an industry standard format which became adopted and maintained by several R&D teams. </li>
+          <li>Architected and Developed software testing schemes for proprietary FPGA chips enabling R&D teams to perform cost-benefit analysis which helped determine the effectiveness of the chip and ultimately the purchase and integration of said chips. </li>
+          <li>Created and implemented a cost saving scaling method for AWS EC2 TippingPoint testing devices reducing hourly costs from $0.308 to $0.0376 unlocking Q&A teams to use 10x the number of systems for testing. </li>
+          <li>Worked alongside a variety of R&D teams leveraging their processes to implement software written in C/C++/Python for FPGA debug and development which created a high degree team autonomy. </li>
         </ul>
       </div>
     </div>
@@ -147,7 +159,7 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Software Engineering Intern, </span>
-          <span class="font-italic">Argonne National Laboratory, </span>
+          <span class="">Argonne National Laboratory, </span>
           <span>Darien, IL.</span>
         </p>
       </div>
@@ -166,7 +178,7 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Computational Biophysics Intern, </span>
-          <span class="font-italic">Illinois Institute of Technology, </span>
+          <span class="">Illinois Institute of Technology, </span>
           <span>Chicago, IL.</span>
         </p>
       </div>
@@ -185,7 +197,7 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Web Administrator, </span>
-          <span class="font-italic">Evolution Artisan Confections, </span>
+          <span class="">Evolution Artisan Confections, </span>
           <span>Valparaiso, IN.</span>
         </p>
       </div>
@@ -209,7 +221,7 @@
       <div class="col-9">
         <p class="experience-body">
           <span class="font-weight-bold">Sales Associate, </span>
-          <span class="font-italic">Eddie Bauer, </span>
+          <span class="">Eddie Bauer, </span>
           <span>Lombard, IL.</span>
         </p>
       </div>
